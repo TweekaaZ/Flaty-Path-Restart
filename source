@@ -2,10 +2,10 @@
 <scriptfile>
     <settings program="actiona" version="3.10.0" scriptVersion="1.1.0" os="Windows"/>
     <actions>
-        <action name="ActionWindow" version="1.0.0"/>
-        <action name="ActionClick" version="1.0.0"/>
         <action name="ActionPause" version="1.0.0"/>
         <action name="ActionGoto" version="1.0.0"/>
+        <action name="ActionClick" version="1.0.0"/>
+        <action name="ActionWindow" version="1.0.0"/>
     </actions>
     <parameters/>
     <resources/>
@@ -132,7 +132,7 @@
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
             <parameter name="duration">
-                <subParameter name="value" code="0">200</subParameter>
+                <subParameter name="value" code="0">500</subParameter>
             </parameter>
             <parameter name="unit">
                 <subParameter name="value" code="0">milliseconds</subParameter>
@@ -163,6 +163,17 @@
             </parameter>
             <parameter name="restoreCursorPosition">
                 <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">500</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">milliseconds</subParameter>
             </parameter>
         </action>
         <action name="ActionClick">
