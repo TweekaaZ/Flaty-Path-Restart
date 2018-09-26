@@ -1,0 +1,23 @@
+Voici une macro compilé en éxécutable qui permet de bypass le problème du bot qui afk après un combat avec un protecteur de ressource en redémarrant le script très rapidement.
+
+*FONCTIONS* :
+
+`Mets la fenêtre de FlatyBot au premier plan`
+`Positionne la fenêtre tout en haut à gauche de votre écran`
+`Effectue un rechargement rapide du trajet actuel toutes les 5 minutes`
+
+PRE-REQUIS :
+
+https://aka.ms/vs/15/release/vc_redist.x86.exe
+https://aka.ms/vs/15/release/vc_redist.x64.exe
+https://www.microsoft.com/net/download/thank-you/net472
+
+CONDITIONS :
+
+1. Avoir au préalable, un trajet chargé et en fonctionnement.
+
+
+NOTES :
+
+Le script utilisera votre souris pour effectuer les actions toutes les 5 minutes.
+Evitez donc de lancer une partie de LoL ou de CS avec ce tool activé :hap:
